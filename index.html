@@ -4,41 +4,146 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Hub de projetos, portfólio e ferramentas de Pedro Queiroz.">
+  <meta name="theme-color" content="#030406">
+  <meta property="og:title" content="PQueiroz — Hub">
+  <meta property="og:description" content="Hub de projetos, portfólio e ferramentas de Pedro Queiroz.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/portfolio-preview.png">
   <title>PQueiroz — Hub</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
+  <a class="skip-link" href="#destinos">Pular para os destinos</a>
+  <div class="bg-aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div class="bg-grid" aria-hidden="true"></div>
   <div class="page-noise" aria-hidden="true"></div>
   <div class="side-type" aria-hidden="true">PQUEIROZ / DIGITAL WORKS / 2026</div>
+
+  <header class="header">
+    <div class="header-inner">
+      <a class="logo" href="#inicio" aria-label="PQueiroz, início">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <strong>PQueiroz</strong>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#destinos">Destinos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="header-cta" href="https://wa.me/5511947762153" target="_blank" rel="noreferrer">
+        <span class="dot" aria-hidden="true"></span>Iniciar projeto <i aria-hidden="true">↗</i>
+      </a>
+    </div>
+  </header>
+
   <main class="site-wrap">
-    <header class="header">
-      <a class="logo" href="#inicio" aria-label="PQueiroz, início"><span>PQ</span><strong>PQueiroz</strong></a>
-      <nav aria-label="Navegação principal"><a href="#destinos">Destinos</a><a href="#contato">Contato</a></nav>
-      <a class="header-cta" href="https://wa.me/5511947762153" target="_blank" rel="noreferrer">Iniciar projeto <i>↗</i></a>
-    </header>
     <section class="hero" id="inicio">
-      <div class="hero-info">
-        <p class="kicker"><span></span> HUB DIGITAL / 01—02</p>
-        <div class="person"><img src="assets/logo.jpg" alt="Pedro Queiroz"><span><b>Pedro Queiroz</b><small>Design, código e performance.</small></span></div>
+      <div class="hero-copy">
+        <p class="kicker reveal"><span></span> HUB DIGITAL / 01—02</p>
+        <h1 class="reveal" style="--d: 80ms">Ideias em<br><em>movimento.</em></h1>
+        <p class="hero-lead reveal" style="--d: 160ms">
+          Um ponto de partida para conhecer meus projetos e soluções digitais.
+          Escolha seu próximo destino.
+        </p>
+        <div class="hero-actions reveal" style="--d: 240ms">
+          <a href="#destinos" class="btn btn-primary">Explorar destinos <span aria-hidden="true">↓</span></a>
+          <a href="https://wa.me/5511947762153?text=Olá%2C%20quero%20conversar%20sobre%20um%20projeto." class="btn btn-ghost" target="_blank" rel="noreferrer">Conversar no WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="person reveal" style="--d: 320ms">
+          <span class="logo-mark" aria-hidden="true"></span>
+          <span><b>Pedro Queiroz</b><small>Design, código e performance.</small></span>
+        </div>
       </div>
-      <h1>IDEIAS EM<br><em>MOVIMENTO.</em></h1>
-      <div class="hero-bottom"><p>Um ponto de partida para conhecer meus projetos e soluções digitais. Escolha seu próximo destino.</p><a href="#destinos" class="discover">Explorar <span>↓</span></a></div>
-      <div class="hero-shape" aria-hidden="true"><span>01</span><i></i><b></b></div>
+
+      <div class="orbit reveal" style="--d: 200ms" aria-hidden="true">
+        <div class="orbit-glow"></div>
+        <div class="ring ring-1"><i class="planet"></i></div>
+        <div class="ring ring-2"><i class="planet"></i></div>
+        <div class="ring ring-3"><i class="planet"></i></div>
+        <div class="orbit-core"></div>
+        <span class="orbit-label label-web">01 / WEB</span>
+        <span class="orbit-label label-sys">02 / SYSTEM</span>
+      </div>
     </section>
-    <section class="destinations" id="destinos" aria-label="Destinos disponíveis">
-      <div class="section-heading"><p>SELECIONE UMA ROTA</p><span>( 02 DESTINOS )</span></div>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Design</span><i>✦</i><span>Código</span><i>✦</i><span>Performance</span><i>✦</i><span>Sites</span><i>✦</i><span>Sistemas</span><i>✦</i><span>Automações</span><i>✦</i><span>Windows</span><i>✦</i>
+        <span>Design</span><i>✦</i><span>Código</span><i>✦</i><span>Performance</span><i>✦</i><span>Sites</span><i>✦</i><span>Sistemas</span><i>✦</i><span>Automações</span><i>✦</i><span>Windows</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="destinations" id="destinos" aria-labelledby="destinos-titulo">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">SELECIONE UMA ROTA</p>
+          <h2 id="destinos-titulo">Para onde vamos?</h2>
+        </div>
+        <span class="count">( 02 DESTINOS )</span>
+      </div>
+
       <div class="destination-grid">
-        <a class="project-card portfolio" href="https://pqueiroz.vercel.app/" target="_blank" rel="noreferrer"><div class="card-head"><span>01 / WEB</span><i>↗</i></div><div class="card-title"><p>DESENVOLVIMENTO DIGITAL</p><h2>Portfólio</h2></div><figure><img src="assets/portfolio-preview.png" alt="Prévia do portfólio de Pedro Queiroz" loading="lazy"></figure><div class="card-foot"><span>Projetos, serviços e experiências.</span><b>VISITAR</b></div></a>
-        <a class="project-card optimizer" href="https://pqoptimizer.vercel.app/" target="_blank" rel="noreferrer"><div class="card-head"><span>02 / SYSTEM</span><i>↗</i></div><div class="card-title"><p>WINDOWS PERFORMANCE</p><h2>Optimizer</h2></div><figure><img src="assets/optimizer-preview.png" alt="Prévia do PQueiroz Optimizer" loading="lazy"></figure><div class="card-foot"><span>Ferramentas para seu PC render mais.</span><b>ACESSAR</b></div></a>
+        <a class="project-card reveal" href="https://pqueiroz.vercel.app/" target="_blank" rel="noreferrer">
+          <div class="card-head"><span>01 / WEB</span><i aria-hidden="true">↗</i></div>
+          <div class="card-title">
+            <p>DESENVOLVIMENTO DIGITAL</p>
+            <h3>Portfólio</h3>
+          </div>
+          <figure class="browser">
+            <div class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>pqueiroz.vercel.app</span></div>
+            <img src="assets/portfolio-preview.png" alt="Prévia do portfólio de Pedro Queiroz" loading="lazy" width="1200" height="760">
+          </figure>
+          <ul class="tags" aria-label="Tópicos"><li>Sites</li><li>Sistemas</li><li>Projetos</li></ul>
+          <div class="card-foot"><span>Projetos, serviços e experiências.</span><b>VISITAR <i aria-hidden="true">→</i></b></div>
+        </a>
+
+        <a class="project-card reveal" style="--d: 120ms" href="https://pqoptimizer.vercel.app/" target="_blank" rel="noreferrer">
+          <div class="card-head"><span>02 / SYSTEM</span><i aria-hidden="true">↗</i></div>
+          <div class="card-title">
+            <p>WINDOWS PERFORMANCE</p>
+            <h3>Optimizer</h3>
+          </div>
+          <figure class="browser">
+            <div class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>pqoptimizer.vercel.app</span></div>
+            <img src="assets/optimizer-preview.png" alt="Prévia do PQueiroz Optimizer" loading="lazy" width="1549" height="742">
+          </figure>
+          <ul class="tags" aria-label="Tópicos"><li>Windows</li><li>Performance</li><li>Ferramentas</li></ul>
+          <div class="card-foot"><span>Ferramentas para seu PC render mais.</span><b>ACESSAR <i aria-hidden="true">→</i></b></div>
+        </a>
       </div>
     </section>
-    <section class="contact-panel" id="contato"><p>PRECISA DE ALGO FORA DA CAIXA?</p><a href="https://wa.me/5511947762153?text=Olá%2C%20quero%20conversar%20sobre%20um%20projeto." target="_blank" rel="noreferrer">Vamos construir juntos <span>→</span></a></section>
-    <footer><span>© <span id="year"></span> PQUEIROZ</span><div><a href="https://github.com/PQueirozDev" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.instagram.com/pqueirozstudio/" target="_blank" rel="noreferrer">Instagram</a></div></footer>
+
+    <section class="contact-panel reveal" id="contato" aria-labelledby="contato-titulo">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <p class="eyebrow">PRECISA DE ALGO FORA DA CAIXA?</p>
+      <h2 id="contato-titulo">Vamos construir <em>juntos.</em></h2>
+      <p class="contact-lead">Conte a sua ideia: sites, sistemas ou automações. A conversa começa no WhatsApp.</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary btn-lg" href="https://wa.me/5511947762153?text=Olá%2C%20quero%20conversar%20sobre%20um%20projeto." target="_blank" rel="noreferrer">Iniciar conversa <span aria-hidden="true">→</span></a>
+        <a class="btn btn-ghost btn-lg" href="https://www.instagram.com/pqueirozstudio/" target="_blank" rel="noreferrer">@pqueirozstudio <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <a class="logo" href="#inicio" aria-label="Voltar ao início">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <strong>PQueiroz</strong>
+      </a>
+      <span class="copy">© <span id="year">2026</span> PQUEIROZ</span>
+      <div class="footer-links">
+        <a href="https://github.com/PQueirozDev" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.instagram.com/pqueirozstudio/" target="_blank" rel="noreferrer">Instagram</a>
+        <a href="#inicio" class="to-top" aria-label="Voltar ao topo">↑</a>
+      </div>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
